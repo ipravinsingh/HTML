@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>table</title>
+  </head>
+  <style>
+    table,
+    th,
+    td {
+      border: 1px solid black;
+      border-collapse: collapse;
+    }
+
+    thead {
+      background-color: antiquewhite;
+    }
+    tbody {
+      background-color: rgb(199, 238, 238);
+    }
+    tfoot {
+      background-color: rgb(160, 215, 215);
+    }
+  </style>
+  <body>
+    <table>
+      <tr>
+        <th>Name</th>
+        <th>Marks</th>
+      </tr>
+      <tr>
+        <td>Praveen</td>
+        <td>45</td>
+      </tr>
+      <tr>
+        <td>Raj</td>
+        <td>99</td>
+        <td>100</td>
+      </tr>
+    </table>
+
+    <br /><br />
+
+    <table>
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Marks</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Anuj</td>
+          <td>45</td>
+        </tr>
+        <tr>
+          <td>Raj</td>
+          <td>99</td>
+        </tr>
+        <tr>
+          <td>Anuj</td>
+          <td>45</td>
+        </tr>
+        <tr>
+          <td>Raj</td>
+          <td>99</td>
+        </tr>
+        <tr>
+          <td>Yash</td>
+          <td>57</td>
+        </tr>
+        <tr>
+          <td>Aakarsh</td>
+          <td>99</td>
+        </tr>
+        <tr>
+          <td>Shivam</td>
+          <td>51</td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <td>Total</td>
+          <td>976</td>
+        </tr>
+      </tfoot>
+    </table>
+
+    <br /><br />
+
+    <table>
+      <tr>
+        <th>Name</th>
+        <th>Jill</th>
+      </tr>
+
+      <tr>
+        <td rowspan="2">Phone</td>
+        <td>555-1234</td>
+      </tr>
+      <tr>
+        <td>555-8754</td>
+      </tr>
+    </table>
+  </body>
+</html>
